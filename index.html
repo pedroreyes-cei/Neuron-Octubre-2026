@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuron</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="media/favicon.svg" type="image/svg+xml">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <img class="header__logo" src="media/logo-black.svg" alt="Neuron Logo">
+        <nav>
+            <ul class="header__nav">
+                <li><a class="menu-link" href="index.html">Home</a></li>
+                <li><a class="menu-link" href="services.html">Services</a></li>
+                <li><a class="menu-link" href="about.html">About Us</a></li>
+                <li><a class="menu-link" href="news.html">News</a></li>
+                <li><a class="menu-link" href="#price">Price</a></li>
+                <li><a class="menu-link" href="contact.html">Contact</a></li>
+            </ul>
+            <a class="header__burger" href="#popup-menu"><i class="ri-menu-line"></i></a>
+
+
+
+            <div id="popup-menu">
+                <a class="close-popup" href="#"><i class="ri-close-line"></i></a>
+                <ul class="popup-menu__nav anim-appear">
+                    <li><a class="heading-h2" href="index.html">Home</a></li>
+                    <li><a class="heading-h2" href="services.html">Services</a></li>
+                    <li><a class="heading-h2" href="about.html">About Us</a></li>
+                    <li><a class="heading-h2" href="news.html">News</a></li>
+                    <li><a class="heading-h2" href="#price">Price</a></li>
+                    <li><a class="heading-h2" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero banner -->
+        <section class="hero">
+            <div class="hero__background">
+                <div class="hero__block block">
+                    <h1>We’re on the road.</h1>
+                    <h2 class="heading-h4">Secure and efficient enterprise digitization.</h2>
+                    <a href="#" class="btn btn--light">Check our services</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta section anim-appear">
+            <div class="cta__block block">
+                <div class="cta__image">
+                    <picture>
+                        <source srcset="media/Home-img-1.avif" type="image/avif">
+                        <source srcset="media/Home-img-1.webp" type="image/webp">
+                        <img class="img-radius" src="media/Home-img-1.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="cta__content">
+                    <div class="cta__heading">
+                        <h2>A little bit about us.</h2>
+                        <h3 class="heading-h4">Not enought for sure.</h3>
+                    </div>
+                    <p>We are a business digitalization company that will help you get what you want: to have an online
+                        presence in front of your competition. Specialists in the field of digitization of publishers
+                        and magazines.</p>
+                    <a class="btn btn--dark" href="#">More about us <i class="ri-arrow-right-up-line"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features-->
+
+        <section class="features section">
+            <div class="features__block block">
+                <div class="features__card">
+                    <h3 class="heading-h4">
+                        <i class="ri-angularjs-line"></i>
+                        Modern.
+                    </h3>
+                    <p>We use the latest technology.</p>
+                </div>
+                <div class="features__card">
+                    <h3 class="heading-h4">
+                        <i class="ri-barcode-box-line"></i>
+                        Easy.
+                    </h3>
+                    <p>Easy editing without restrictions.</p>
+                </div>
+                <div class="features__card">
+                    <h3 class="heading-h4">
+                        <i class="ri-atom-line"></i>
+                        Editable.
+                    </h3>
+                    <p>You will be able to edit everything.</p>
+                </div>
+                <div class="features__card">
+                    <h3 class="heading-h4">
+                        <i class="ri-notification-line"></i>
+                        Connected.
+                    </h3>
+                    <p>Always keep your community informed.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta section">
+            <div class="cta__block block">
+                <div class="cta__content">
+                    <div class="cta__heading">
+                        <h2>We make everything easy.</h2>
+                        <h3 class="heading-h4">Or so we are told</h3>
+                    </div>
+                    <p>We keep the essence of your business, no worries, just ease of use, speed, and constant
+                        communication with our team of professionals. What else?</p>
+                    <a class="btn btn--dark" href="#">Let me in <i class="ri-arrow-right-up-line"></i></a>
+                </div>
+                <div class="cta__image">
+                    <picture>
+                        <source srcset="media/Home-img-2.avif" type="image/avif">
+                        <source srcset="media/Home-img-2.webp" type="image/webp">
+                        <img class="img-radius" src="media/Home-img-2.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+
+        <section class="services section">
+            <div class="services__block block">
+                <h2>What can we do.</h2>
+                <p>Take a look at our most outstanding services, surely some of them will interest you.</p>
+                <ul class="services__grid">
+                    <li class="services__card">
+                        <picture>
+                            <source srcset="media/Services-1.avif" type="image/avif">
+                            <source srcset="media/Services-1.webp" type="image/webp">
+                            <img class="img-radius" src="media/Services-1.jpg" alt="">
+                        </picture>
+                        <h3 class="heading-h4">Web development</h3>
+                        <p>We convert your business into a fully functional and editable website, with what your
+                            business requires, fast and easy to use.</p>
+                    </li>
+                    <li class="services__card">
+                        <picture>
+                            <source srcset="media/Services-2.avif" type="image/avif">
+                            <source srcset="media/Services-2.webp" type="image/webp">
+                            <img class="img-radius" src="media/Services-2.jpg" alt="">
+                        </picture>
+                        <h3 class="heading-h4">Web development</h3>
+                        <p>We convert your business into a fully functional and editable website, with what your
+                            business requires, fast and easy to use.</p>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn--dark">See all services</a>
+            </div>
+        </section>
+
+        <!-- Prices -->
+
+        <section id="price" class="prices section">
+            <div class="prices__block block">
+                <div class="prices__card">
+                    <div class="prices__head">
+                        <span class="heading-h3">Basic Plan</span>
+                        <span class="heading-h1">99€</span>
+                        <a href="#" class="btn btn--dark">
+                            Try it for free
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                    <ul>
+                        <li><i class="ri-checkbox-circle-line"></i>UX/UI</li>
+                        <li><i class="ri-checkbox-circle-line"></i>WordPress</li>
+                        <li><i class="ri-checkbox-circle-line"></i>Customized panel</li>
+                        <li><i class="ri-close-circle-line red"></i>Neuhost access</li>
+                        <li><i class="ri-close-circle-line red"></i>Neuron Studio</li>
+                        <li><i class="ri-close-circle-line red"></i>Web development</li>
+                        <li><i class="ri-close-circle-line red"></i>App development</li>
+                        <li><i class="ri-close-circle-line red"></i>SEO/SEM</li>
+                    </ul>
+                </div>
+                <div class="prices__card prices__card--dark">
+                    <div class="prices__head">
+                        <span class="heading-h3">Pro Plan</span>
+                        <span class="heading-h1">129€</span>
+                        <a href="#" class="btn btn--light">
+                            Try it for free
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                    <ul>
+                        <li><i class="ri-checkbox-circle-line"></i>UX/UI</li>
+                        <li><i class="ri-checkbox-circle-line"></i>WordPress</li>
+                        <li><i class="ri-checkbox-circle-line"></i>Customized panel</li>
+                        <li><i class="ri-checkbox-circle-line"></i>Neuhost access</li>
+                        <li><i class="ri-checkbox-circle-line"></i>Neuron Studio</li>
+                        <li><i class="ri-close-circle-line red"></i>Web development</li>
+                        <li><i class="ri-close-circle-line red"></i>App development</li>
+                        <li><i class="ri-close-circle-line red"></i>SEO/SEM</li>
+                    </ul>
+                </div>
+                <div class="prices__card">
+                    <div class="prices__head">
+                        <span class="heading-h3">Xtreme Plan</span>
+                        <span class="heading-h1">199€</span>
+                        <a href="#" class="btn btn--dark">
+                            Try it for free
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                    <ul>
+                        <li><i class="ri-checkbox-circle-line"></i>UX/UI</li>
+                        <li><i class="ri-checkbox-circle-line"></i>WordPress</li>
+                        <li><i class="ri-checkbox-circle-line"></i>Customized panel</li>
+                        <li><i class="ri-checkbox-circle-line"></i>Neuhost access</li>
+                        <li><i class="ri-checkbox-circle-line"></i>Neuron Studio</li>
+                        <li><i class="ri-checkbox-circle-line"></i>Web development</li>
+                        <li><i class="ri-checkbox-circle-line"></i>App development</li>
+                        <li><i class="ri-checkbox-circle-line"></i>SEO/SEM</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+
+        <section class="contact section">
+            <div class="contact__block block">
+                <iframe class="contact__map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12318.894016003482!2d-0.34734079999999995!3d39.4755747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048a4f532313d%3A0xaaaa351b5c1733d8!2sFacultats!5e0!3m2!1ses!2ses!4v1794843941669!5m2!1ses!2ses" allowfullscreen="" loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+                <div class="contact__content">
+                    <div class="contact__heading">
+                        <h2>Contact with us</h2>
+                        <p>You can also check other ways to contact us on the contact page.</p>
+                    </div>
+                    <form class="form" action="#" method="post">
+                        <div class="form__columns">
+                            <div class="form__field">
+                                <label for="name">Name</label>
+                                <input id="name" name="name" type="text" placeholder="Name">
+                            </div>
+                            <div class="form__field">
+                                <label for="surname">Surname</label>
+                                <input id="surname" name="surname" type="text" placeholder="Surname">
+                            </div>
+                        </div>
+                        <div class="form__field">
+                            <label for="email">E-mail</label>
+                            <input id="email" name="email" type="email" placeholder="E-mail">
+                        </div>
+                        <div class="form__field">
+                            <label for="services">Services</label>
+                            <select name="services" id="services">
+                                <option value="" selected disabled>Select the service</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                            </select>
+                        </div>
+                        <div class="form__field form__field--acceptance">
+                            <label for="acceptance">I have read and accept the <a href="#">privacy policy</a></label>
+                            <input id="acceptance" name="acceptance" type="checkbox" required>
+                        </div>
+                        <button type="submit" class="btn btn--submit">Send <i
+                                class="ri-arrow-right-up-line"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Posts -->
+
+        <section class="posts section">
+            <div class="posts__block block">
+                <div class="posts__heading">
+                    <h2>Latest post</h2>
+                    <a href="news.html" class="btn btn--dark">
+                        Go read all our posts
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+                <ul class="posts__grid">
+                    <li class="posts__card">
+                        <picture>
+                            <source srcset="media/News-1.avif" type="image/avif">
+                            <source srcset="media/News-1.webp" type="image/webp">
+                            <img src="media/News-1.jpg" alt="">
+                        </picture>
+                        <h3 class="heading-h4">The Ultimate Guide to Digital Transformation for Small...</h3>
+                        <p>Embracing digital transformation is essential for small businesses seeking growth and resilience...</p>
+                        <a href="#">Read more</a>
+                    </li>
+                    <li class="posts__card">
+                        <picture>
+                            <source srcset="media/News-2.avif" type="image/avif">
+                            <source srcset="media/News-2.webp" type="image/webp">
+                            <img src="media/News-2.jpg" alt="">
+                        </picture>
+                        <h3 class="heading-h4">Why Cloud Solutions Are the Backbone of Modern Enterprises</h3>
+                        <p>Cloud technologies offer flexibility, security, and scalability for all types of organizations. Learn how cloud solutions...</p>
+                        <a href="#">Read more</a>
+                    </li>
+                    <li class="posts__card">
+                        <picture>
+                            <source srcset="media/News-3.avif" type="image/avif">
+                            <source srcset="media/News-3.webp" type="image/webp">
+                            <img src="media/News-3.jpg" alt="">
+                        </picture>
+                        <h3 class="heading-h4">Automate to Innovate: How Workflow Automation Boosts...</h3>
+                        <p>Implementing workflow automation helps eliminate repetitive tasks and human error. Explore key automation tools and...</p>
+                        <a href="#">Read more</a>
+                    </li>
+                </ul>
+                <span class="heading-h4">We write for you, with love from neuron.</span>
+            </div>
+        </section>
+
+
+    </main>
+    <footer class="footer section">
+        <div class="footer__block">
+            <div class="footer__top">
+                <img class="footer__logo" src="media/logo-light.svg" alt="">
+                <ul class="footer__social">
+                    <li><i class="ri-instagram-line"></i></li>
+                    <li><i class="ri-twitter-x-line"></i></li>
+                    <li><i class="ri-pinterest-line"></i></li>
+                    <li><i class="ri-linkedin-box-line"></i></li>
+                </ul>
+            </div>
+            <ul class="footer__legal">
+                <li><a href="#">Legal Notice</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookies Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
